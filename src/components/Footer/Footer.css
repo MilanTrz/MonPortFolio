@@ -1,0 +1,40 @@
+footer {
+  width: 100%;
+  background-color: #1F1F1F;
+  color: #ccc;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  border-top: 1px solid #333;
+  font-size: 0.9rem;
+}
+
+.footer-content {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-content p {
+  margin: 0;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 0 0.5rem;
+  transition: filter 0.3s ease;
+}
+
+.social-links a img {
+  width: 24px;
+  height: 24px;
+  filter: grayscale(70%);
+}
+
+.social-links a:hover img {
+  filter: none;
+  filter: drop-shadow(0 0 2px #4FC3F7);
+}
